@@ -1,0 +1,22 @@
+{
+  "name": "randomquotemachine",
+  "version": "1.0.0",
+  "description": "qoute machine - freeCodeCamp project ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomski80/RandomQuoteMachine.git"
+  },
+  "author": "Tomek Straszewski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomski80/RandomQuoteMachine/issues"
+  },
+  "homepage": "https://github.com/tomski80/RandomQuoteMachine#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
