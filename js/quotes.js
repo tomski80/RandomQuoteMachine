@@ -1,7 +1,7 @@
 
 var quotes = [];
 
-$.get( "http://localhost:3000/data/quotes.txt", function (data, status) {
+$.get( "data/quotes.txt", function (data, status) {
     
     var allQuotes = String(data);
     
