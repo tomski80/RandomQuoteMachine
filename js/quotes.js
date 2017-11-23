@@ -52,8 +52,23 @@ function quoteUpdate() {
     
         var qAndAuthor = quotes[index].replace(/-{2}/,"¬");
         var qAndAuthorArr = qAndAuthor.split("¬");
-        $('#quote').html(qAndAuthorArr[0]);
-        $('#author').html(qAndAuthorArr[1]);
+
+        var quoteElement = $('#quote');
+        var authorElement = $('#author')
+        quoteElement.fadeOut();
+        authorElement.fadeOut();
+
+        setTimeout( function(){
+            $('#quote').html(qAndAuthorArr[0]);
+            $('#author').html(qAndAuthorArr[1]);
+        },400);
+        quoteElement.fadeIn();
+        authorElement.fadeIn();
+
+
+
+   
+        
     }
 
 

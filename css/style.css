@@ -1,9 +1,17 @@
-h2 {
-    text-align: center;
+body {
+    height: 100%;
+    background-color: rgb(136, 45, 96);
 }
 
-.container {
-    margin-top: 5em;
+h2 {
+    text-align: center;
+    color: rgb(47, 4, 71);
+    padding: 3em 0em 3em 0em;
+}
+
+.jumbotron {
+    background-color: rgb(139, 107, 157);
+    border-radius: 0;
 }
 
 .dark {
@@ -13,14 +21,48 @@ h2 {
     border-width: 1px;
     
 }
+#quote { 
+    font-size: 105%;
+}
 
 #author {
     font-weight: bold;
 }
 
 #foot {
-    margin: 4em;
+    margin: 3em 3em 3em 3em;
+    padding: 3em 3em 3em 3em;
     text-align: center;
     font-size: small;
     color: rgb(136, 136, 136);
 }
+
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    border-radius: 0;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+    outline-color: rgb(66, 99, 0);
+}
+ 
+.btn-primary {
+    background: rgb(170, 170, 57);
+    color: #ffffff;
+}
+ 
+.btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: rgb(170, 170, 57);
+    box-shadow: 0 0 0 0px rgb(49, 73, 0);
+    -webkit-box-shadow: 0 0 0 0px rgb(48, 71, 0);
+}
+
+.btn-primary:hover {
+    background: rgb(66, 99, 0);
+}
+
+
+
