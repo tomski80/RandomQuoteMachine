@@ -1,0 +1,26 @@
+h2 {
+    text-align: center;
+}
+
+.container {
+    margin-top: 5em;
+}
+
+.dark {
+    background-color: rgb(184, 184, 184);
+    color: rgb(65, 65, 65);
+    border: solid;
+    border-width: 1px;
+    
+}
+
+#author {
+    font-weight: bold;
+}
+
+#foot {
+    margin: 4em;
+    text-align: center;
+    font-size: small;
+    color: rgb(136, 136, 136);
+}
